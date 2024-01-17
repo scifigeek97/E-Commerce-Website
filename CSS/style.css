@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color:orange ;
+}
+.navbar h1{ color: white;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+ul{
+    float: right;
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+a{
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 35px;
+    
+}
+li :hover{
+    color: black;
+}
+body{
+    background-image: url("../hhhh.jpeg");
+    background-size: cover;
+}
